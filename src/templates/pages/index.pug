@@ -1,0 +1,13 @@
+extends ../template
+block variables
+    - var title ='Добро пожаловать'
+block content 
+    h1 Авторизуйтесь
+    form 
+        label(for="login") login
+        input(name="login" id="login")
+        label(for="password") password
+        input(name="password" id="password")
+        checkbox Я человек
+        button На главную
+        button Войти

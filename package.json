@@ -24,6 +24,8 @@
     "vue": "^2.5.15"
   },
   "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-pug": "^3.3.0",
     "webpack": "^3.11.0"
   }
 }
